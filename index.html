@@ -92,8 +92,9 @@
     </div>
 
     <div class="hero__art">
-      <div class="hero__photo">
-        <img src="assets/images/hero-spices.jpg" alt="A flat lay of Indian spices — turmeric, red chilli, cardamom, cumin, cloves, cinnamon and curry leaves">
+      <div class="hero__photo" id="heroSlides">
+        <img class="hero__slide is-active" src="assets/images/hero-spices.jpg" alt="A flat lay of Indian spices — turmeric, red chilli, cardamom, cumin, cloves, cinnamon and curry leaves">
+        <img class="hero__slide" src="assets/images/Cargo.png" alt="An Exsealoop container ship loading at port, sacks of Indian spices in the foreground" loading="lazy">
         <svg class="hero__route" viewBox="0 0 640 460" aria-hidden="true">
           <g stroke="#F8F7F3" stroke-width="1.6" fill="none" opacity="0.85">
             <path d="M40 90 C 180 30, 340 14, 560 46" stroke-dasharray="2 8" stroke-linecap="round"/>
@@ -103,6 +104,10 @@
           <circle cx="400" cy="16" r="4" fill="#F8F7F3"/>
           <circle cx="560" cy="46" r="5" fill="#C7AD78"/>
         </svg>
+        <div class="hero__dots" role="group" aria-label="Choose hero image">
+          <button type="button" class="hero__dot is-active" aria-label="Show spice flat lay"></button>
+          <button type="button" class="hero__dot" aria-label="Show cargo ship at port"></button>
+        </div>
       </div>
     </div>
   </div>
