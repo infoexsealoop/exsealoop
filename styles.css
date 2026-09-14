@@ -80,7 +80,7 @@ p{margin:0;}
 .hero__stats div strong{display:block;font-family:'Playfair Display',serif;font-size:28px;font-weight:800;color:var(--gold-300);}
 .hero__stats div span{font-size:12.5px;color:rgba(255,255,255,0.6);text-transform:uppercase;letter-spacing:0.06em;}
 .hero__art{position:relative;}
-.hero__photo{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:640/500;box-shadow:0 40px 70px -24px rgba(0,0,0,0.55);border:1px solid rgba(255,255,255,0.12);}
+.hero__photo{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:3/2;box-shadow:0 40px 70px -24px rgba(0,0,0,0.55);border:1px solid rgba(255,255,255,0.12);}
 .hero__slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .9s ease;}
 .hero__slide.is-active{opacity:1;}
 .hero__photo::after{content:"";position:absolute;inset:0;background:linear-gradient(160deg,rgba(0,17,40,0.35),rgba(0,17,40,0) 46%);pointer-events:none;}
